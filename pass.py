@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, session, redirect, url_for, f
 import random
 import string
 import os
-import json
 
 app = Flask(__name__)
 app.secret_key = 'helloworld'
@@ -282,4 +281,5 @@ def manag():
 
 
 if __name__ == '__main__':
+
     app.run(debug=True, host='0.0.0.0', port=5000)
