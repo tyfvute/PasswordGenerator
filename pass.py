@@ -235,9 +235,9 @@ def read_managerpassword():
                 line = line.strip()
                 if line:
                     parts = line.split(', ')
-                    website = parts[0].replace('Сайт: ', '')
-                    username = parts[1].replace('Пользователь: ', '')
-                    password = parts[2].replace('Пароль: ', '')
+                    username = parts[0].replace('Пользователь: ', '')
+                    password = parts[1].replace('Пароль: ', '')
+                    website = parts[2].replace('Сайт: ', '')
                     managerpassword.append({
                         'website': website,
                         'username': username,
@@ -283,3 +283,4 @@ def manag():
 if __name__ == '__main__':
 
     app.run(debug=True, host='0.0.0.0', port=5000)
+
