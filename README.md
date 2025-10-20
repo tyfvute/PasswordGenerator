@@ -30,7 +30,7 @@
 
 1. Скопируйте репозиторий.
 
-       https://github.com/tyfvute/PasswordGenerator.git
+       git clone https://github.com/tyfvute/PasswordGenerator.git
        cd PasswordGenerator
 
 3. Установите библиотеку Фласк:
